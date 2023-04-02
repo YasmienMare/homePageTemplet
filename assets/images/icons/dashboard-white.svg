@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1970" data-name="Rectangle 1970" class="cls-1" width="16" height="16"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_153" data-name="Mask Group 153" class="cls-2">
+    <g id="dashboard-interface">
+      <path id="Path_2756" data-name="Path 2756" class="cls-1" d="M14.833,0H1.167A1.168,1.168,0,0,0,0,1.167V2.833A1.168,1.168,0,0,0,1.167,4H14.833A1.168,1.168,0,0,0,16,2.833V1.167A1.168,1.168,0,0,0,14.833,0Z"/>
+      <path id="Path_2757" data-name="Path 2757" class="cls-1" d="M1.167,16h5a1.168,1.168,0,0,0,1.167-1.167V6.5A1.168,1.168,0,0,0,6.167,5.333h-5A1.168,1.168,0,0,0,0,6.5v8.333A1.168,1.168,0,0,0,1.167,16Z"/>
+      <path id="Path_2758" data-name="Path 2758" class="cls-1" d="M14.833,5.333h-5A1.168,1.168,0,0,0,8.667,6.5V8.833A1.168,1.168,0,0,0,9.833,10h5A1.168,1.168,0,0,0,16,8.833V6.5A1.168,1.168,0,0,0,14.833,5.333Z"/>
+      <path id="Path_2759" data-name="Path 2759" class="cls-1" d="M14.833,11.333h-5A1.168,1.168,0,0,0,8.667,12.5v2.333A1.168,1.168,0,0,0,9.833,16h5A1.168,1.168,0,0,0,16,14.833V12.5A1.168,1.168,0,0,0,14.833,11.333Z"/>
+    </g>
+  </g>
+</svg>

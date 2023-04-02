@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1881" data-name="Rectangle 1881" class="cls-1" width="16" height="16"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_104" data-name="Mask Group 104" class="cls-2">
+    <path id="hourglass" class="cls-1" d="M13.333,14.667h-.667V12.187a3.34,3.34,0,0,0-1.1-2.477l-1.074-.967a1,1,0,0,1,0-1.487l1.074-.967a3.341,3.341,0,0,0,1.1-2.477V1.333h.667a.667.667,0,1,0,0-1.333H2.667a.667.667,0,0,0,0,1.333h.667V3.813a3.34,3.34,0,0,0,1.1,2.477l1.074.967a1,1,0,0,1,0,1.487L4.437,9.71a3.341,3.341,0,0,0-1.1,2.477v2.479H2.667a.667.667,0,0,0,0,1.333H13.333a.667.667,0,0,0,0-1.333Z"/>
+  </g>
+</svg>

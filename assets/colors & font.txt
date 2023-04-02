@@ -1,0 +1,26 @@
+
+* Colors
+
+	- Turquoise : #2fd0cd
+	- Grey      : #b8b8b8
+	- Brown     : #373737
+
+	- Turquoise 2       : #34e7e4
+	- Inverse Turquoise : #e6f9f8
+
+	- Purple 	 : #6d1cff
+	- Inverse Purple : #f0e8ff
+
+	- Green 	: #00c664
+	- Inverse Green : #e6f9f0
+
+	- Red 	      : #f84c5a
+	- Inverse red : #fbe6e6
+
+	- Black 	: #4d4d4d
+	- Inverse Black : #e3e3e3
+
+
+* Fonts
+	- font Type : Cairo
+

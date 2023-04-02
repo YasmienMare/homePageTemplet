@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color: #f9fafa;
+      font-family: "Cairo";
+  }
+.nav{
+background-color: rgb(255, 255, 255);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px;
+border-color: #eae8e8;
+border-bottom-style: solid;
+}
+.navImg{
+  float:right;
+}
+.drImage{
+  height: 40px;
+  width: 40px;
+border-radius: 10px;
+  
+}
+.navIcon{
+  background-color: #f9fafa;
+  border-radius: 10px;
+  border-color: none;
+  padding: 10px;
+}
+.notification {
+  position: relative;
+  display: inline-block;
+  
+}
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  background: #34e7e4;
+  color: white;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+  font-size: 10px;
+}
+
+
+.drName{
+  float:left;
+  font-weight: bold;
+  margin: 0px 10px 0px 70px;
+}
+
+div.row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 80px;
+  margin-left: 20px;
+}
+
+.menu{
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  height: 100%;
+  right: 0;
+  top: 90px;
+  padding: 0;
+  text-decoration:none;
+  text-align: -webkit-right;
+  border-color: #eae8e8;
+  border-left-style: solid;
+  transition: width 2s;
+  
+}
+
+a:hover,a:focus {
+text-decoration:none;
+} 
+.menu li>a{
+  text-decoration:none;
+}
+
+.menu ul {
+margin: 0 0 0 -30px;
+}
+.menu li {
+position:relative;
+display:block;
+padding: 10px;
+}
+.menuIcon{
+  filter: invert(.2) hue-rotate(0.07turn);
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px;
+  }
+ 
+.menu-text{
+  display: none;
+  color: #cccccc;
+  text-align: center;
+  vertical-align: middle;
+  margin: 10px;
+   margin-left: 0;
+  }
+  .menu:hover  .menu-text{
+    display: inline;
+    transition-timing-function:  ease-in-out; ;
+  }
+  .dashboardTextActiv{
+    color:#34e7e4;
+  }
+  .dashboardIconActiv{
+    filter: invert(.5) hue-rotate(0.07turn);
+  }
+.menu a:hover{
+  filter: invert(.5) hue-rotate(0.07turn);
+}
+.toolTip{
+  position: relative;
+  display: inline-block;
+  
+}
+.toolTip .spanTooltip {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius: 50%;
+  background: #34e7e4;
+  color: white;
+  width: 5px;
+  height: 5px;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+}
+.toolTip{
+  display: none;
+}
+.menu:hover .toolTip{
+  display: inline-block;
+}
+
+.control_panel{
+  width: 100%;
+  padding: 20px;
+  margin: 95px 10px 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+ }
+ .spanPanel{
+   float: right;
+   font-weight: bold;
+ }
+ .doctorName{
+   float:none;
+   font-weight:unset;
+
+ }
+ .imgCPanel{
+   height: 13px;
+   width: 13px;
+   
+ }
+ .infoDoctor{
+   background-color: #eff2f2;
+   border-radius: 10px;
+   border-color: none;
+   padding: 5px; 
+   direction: rtl;
+ }
+ .infoDoctor{
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ }
+
+ .appointmentTable{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  border-radius: 10px;
+  }
+  .appointmentTable>span{
+    float: right;
+    font-weight: bold;
+  }
+  .button{
+    background-color: rgb(255, 255, 255);
+    color:#28b6b4;
+    border-radius: 10px;
+    width: 20%;
+    height: 30px;
+   border: 1px solid #28b6b4;
+  }
+  .button:hover{
+    background-color: #e6f9f8;
+  }
+  input[type=search]{
+    width: 20%;
+    text-align: right;
+    height: 30px;
+    border-radius: 10px; 
+    background-color: rgb(233, 236, 240);
+    border-style: none;
+    outline: none;
+  }
+ 
+table {
+  border-collapse: collapse;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  direction: rtl;
+}
+  
+  th, td {
+    padding: 8px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+    direction: rtl;
+  }
+  .patientImg{
+    height: 25;
+    width: 25px;
+  }
+
+
+  .flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    border-color: none;
+    width: 20%;
+    height: 10%;
+    margin: 10px;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+   
+  }
+  .btn{
+      transition: width .12s;
+      border-radius: 7px;
+      width: 50px;
+      height: 50px;
+      float: right;
+      direction: rtl; 
+      border-style: none;
+      text-align: center;
+      padding: 10px 10px;
+      margin: 10px 10px 10px 10px;
+    }
+  .btn:hover {
+      transition-timing-function:  linear;
+    width: 70px;
+    
+  }
+ 
+ .block >p{
+    color: #d0cbcb;
+    margin: auto;
+  }
+  .block>span{
+    font-weight: bold;
+  }
+
+  .welcom{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+   
+  }
+  .welcom>div{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 0px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .list{
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .listSpan{
+    font-weight: bold;
+  }
+
+  .image{
+    height:100px;
+    width:auto;
+    transform: scaleX(-1);
+  }
+  .welSpan >div{
+    display:flex;
+    flex-direction: column;
+    float: right;
+    direction: rtl;
+  }
+  .day{
+    float: right;
+    color: #d0cbcb;
+    margin: 5px;
+  }
+  /*list elements*/
+  .appointmentList{
+    direction: rtl;
+    list-style-type: none ;
+    color: #d1c9c9;
+    float: right;
+    margin: 0;
+    padding: 0;
+  }
+  .completList::before{
+    content: "\2022";
+    color:#28b6b4;
+    direction: rtl;
+    width: 1em;
+    display: inline-block;
+  }
+  .waitingList::before{
+    content: "\2022";
+    color: blue;
+    direction: rtl;
+    width: 1em;
+    display: inline-block;
+  }
+  .appointmentday{
+    direction: rtl;
+    font-weight: bold;
+    margin: 0;
+  }
+  
